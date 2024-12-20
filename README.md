@@ -1,93 +1,77 @@
-# Doctor Appointment System
+# edoc-echanneling
+![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(1).png)
 
-## Overview
-The **Doctor Appointment System** is a software engineering project that simplifies appointment scheduling and management for patients and healthcare providers. This application integrates a robust backend for data processing and a user-friendly frontend for seamless interaction.
+Simple web project that made for e-channeling.
+This project helps a certain medical establishment such as a clinic or a hospital clients/patients to request an appointment with a doctor online. This project can also help doctors to manage the schedules of their appointments with their patients. This doctor's appointment system will organize the schedules of each patient's appointment, which will be submitted as a request to the doctor they have selected. The system has 3 sides which are the administrator, the doctor, and the patient. The system admin will populate the list of the doctors with their specialties and along with the doctor's details and system credentials. The patients will browse the doctor's appointment system website to find a doctor that has the specialty of their needs. The patient can check the doctor's weekly schedule to help them to choose the day and time which they can comply for the appointment and they will submit their request for an appointment. After that, the doctors can view all their appointments and the appointment request of the patients for their availability.
 
-# Features
-
-Patient Module:
-- User registration and login system.
-- Profile management and appointment history.
+  1.Admin
   
-Doctor Module:
-- View and manage appointments.
-- Profile setup with specialization details.
   
-Admin Module:
-- Manage users (patients and doctors).
-- Oversee appointment records.
-  
-Appointment Management:
-- Real-time booking and cancellation.
-- Notifications and reminders for scheduled appointments.
-  
-Search Functionality:
-- Search doctors by name, specialization, or location.
-  
-
-
-## Technologies Used
-
-- **Frontend:** 
-  - HTML
-  - CSS
-  - JavaScript
-- **Backend:**
-  - PHP(used for server-side logic and database interactions)
-- **Database:**
-  - SQL(stores user data, doctor profiles, and appointment records)
+    Admin can add doctors,edit doctors, delete doctors;
+    
+    Schedule new doctors sessions,remove sessions;
+    
+    View patients details;
+    
+    View booking of patients;
+    
+    
+![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(3).png)
+    
  
-
-## Installation
-
-### Prerequisites
-- A local server environment like XAMPP installed.
-- A web browser to access the application.
+ 
+  2.Doctors
   
-### Clone the Repository
-
-git clone https://github.com/your-username/doctor-appointment-system.git  
-cd doctor-appointment-system  
-
-### Set Up the Database
-
-- Set Up the Database
-- Open your local server's database management tool (e.g., phpMyAdmin).
-- Create a new database.
-- Import the SQL_Database_edoc.sql file provided in this repository.
-
-### Configure the Backend
-
-- Update the connection.php file with your database credentials (host, username, password, and database name).
-
-
-### Run the Application
-
-- Move the project folder to your server's root directory (e.g., htdocs for XAMPP).
-- Start your local server and navigate to http://localhost/doctor-appointment-system/index.html in your browser.
-
-
-
-## How It Works
-
-- **Patient Workflow**  
-  - Register and log in.
-  - Search for doctors by specialization or location.
-  - Book, reschedule, or cancel appointments.
+  
+    View their Appointment;
     
-- **Doctor Workflow**
-  - Log in to view and manage appointment schedules.
-  - Update availability and specialization details.
+    view their scheduled sessions;
     
-- **Admin Workflow**
-  - Access the admin panel to manage users and system records.
-
+    view details of patients;
     
-### Security
-The project includes a basic security policy for supported versions and instructions for reporting vulnerabilities. More details can be found in the SECURITY.md file​.
+    delete account;
+    
+    edit account settings;
+    
+![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(9).png)
+    
+  3.Patiens(Clients)
+  
+  
+    make appointment online;
+    
+    create accounts themslves;
+    
+    view their old booking;
+    
+    delete account;
+    
+    edit account settings;
+    
+    
+![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(6).png)  
+    
+If you are Admin,doctor or patient ,only have one page to login :)
 
-### Contributing
-Contributions are welcome! Feel free to open an issue or submit a pull request to suggest improvements or new features.
+  
+-----------------------------------------------
+
+
+# HOW TO GET STARTED
+
+Open your XAMPP Control Panel and start Apache and MySQL.
+
+Extract the downloaded source code zip file.
+
+Copy the extracted source code folder and paste it into the XAMPP's "htdocs" directory.
+
+Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
+
+Create a new database naming edoc.
+
+Import the provided SQL file. The file is known as DATABASE edoc.sql located inside the source code root folder.
+
+Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/edoc-echanneling-main/.
 
 
 
@@ -97,21 +81,47 @@ Contributions are welcome! Feel free to open an issue or submit a pull request t
 
 
 
-How It Works
-Patient Workflow:
-Register and log in to the system.
-Search for doctors based on specialization or location.
-Book, reschedule, or cancel appointments.
-Receive notifications for upcoming appointments.
-Doctor Workflow:
-Log in to manage your appointments.
-View patient details and manage schedules.
-Admin Workflow:
-Log in to oversee the system.
-Manage users and view appointment summaries.
-Contributing
-Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
 
+
+
+
+
+DATABASE NAME: 'edoc'
+
+# BUILDIN USER ACCOUNTS OF THIS PROJECT
+
+ADMIN EMAIL:		admin@edoc.com
+
+ADMNIN PASSWORD:	123
+
+
+DOCTOR EMAIL:		doctor@edoc.com
+
+DOCTOR PASSWORD:	123
+
+
+PATIENT EMAIL:		patient@edoc.com
+
+PATIENT PASSWORD:	123
+
+
+
+
+
+---------------------------------------
+# The Project was developed using the following:
+
+Apache Version: 	2.4.39
+
+PHP Version: 		7.3.5
+
+Server Software: 	Apache/2.4.39 (Win64) PHP/7.3.5
+
+MySQL Version: 		5.7.26
+
+Also available in sourcecodester.com : https://www.sourcecodester.com/hashenudara/simple-doctors-appointment-project.html
+
+Demo video: https://youtu.be/mAWHYAHmit4
 
 
 
