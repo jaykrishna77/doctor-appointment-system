@@ -16,7 +16,7 @@ This project helps a certain medical establishment such as a clinic or a hospita
     View booking of patients;
     
     
-![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(3).png)
+![](https://github.com/jaykrishna77/doctor-appointment-system/blob/main/Screenshots/Screenshot%20(3).png)
     
  
  
@@ -33,7 +33,7 @@ This project helps a certain medical establishment such as a clinic or a hospita
     
     edit account settings;
     
-![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(9).png)
+![](https://github.com/jaykrishna77/doctor-appointment-system/blob/main/Screenshots/Screenshot%20(9).png)
     
   3.Patiens(Clients)
   
@@ -49,7 +49,7 @@ This project helps a certain medical establishment such as a clinic or a hospita
     edit account settings;
     
     
-![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(6).png)  
+![](https://github.com/jaykrishna77/doctor-appointment-system/blob/main/Screenshots/Screenshot%20(6).png)
     
 If you are Admin,doctor or patient ,only have one page to login :)
 
@@ -88,7 +88,7 @@ Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/edoc
 
 DATABASE NAME: 'edoc'
 
-# BUILDIN USER ACCOUNTS OF THIS PROJECT
+# USER ACCOUNTS OF THIS PROJECT
 
 ADMIN EMAIL:		admin@edoc.com
 
@@ -119,9 +119,6 @@ Server Software: 	Apache/2.4.39 (Win64) PHP/7.3.5
 
 MySQL Version: 		5.7.26
 
-Also available in sourcecodester.com : https://www.sourcecodester.com/hashenudara/simple-doctors-appointment-project.html
-
-Demo video: https://youtu.be/mAWHYAHmit4
 
 
 
