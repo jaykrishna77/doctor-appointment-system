@@ -1,4 +1,4 @@
-# edoc-echanneling
+# Online Doctor's Appointment System 
 ![](https://github.com/jaykrishna77/doctor-appointment-system/blob/main/Screenshots/Screenshot%20(1).png)
 
 Simple web project that made for e-channeling.
